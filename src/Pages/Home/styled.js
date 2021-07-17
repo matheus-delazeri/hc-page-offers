@@ -9,6 +9,15 @@ export const Main = styled.div`
         height: 100%;
     }
 `;
+export const GoUpBtn = styled.a`
+   position: fixed;
+   bottom: 5%;
+   right: 3%; 
+`;
+export const GoUpIcon = styled.i`
+    font-size: 1.7rem;
+    color: #63DC3E;
+`;
 export const HeaderSection = styled.div `
     display: flex;
 	max-width: 100%;
@@ -93,7 +102,6 @@ export const NewsItem = styled.div`
         max-width: 100%;
         margin-bottom: 10%;
     }
-
 `;
 export const NewsImg = styled.img`
     max-width: 100%;
@@ -114,7 +122,6 @@ export const NewsForm = styled.div`
         display: block;
         margin: 0 auto;
     }
-
 `;
 export const NewsTitle = styled.h1`
     font-size: 20px;
@@ -128,9 +135,12 @@ export const ColoredNews = styled.span`
     color: #63DC3E;
 `;
 export const InputText = styled.span`
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 4%;
     color: #000;
+    @media (max-width: 990px) {
+        font-size: 12px;
+    }
 `;
 export const NewsInput = styled.input`
     width: 75%;

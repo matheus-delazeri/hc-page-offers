@@ -49,8 +49,9 @@ export default function Home() {
 
     return (
         <>
+            <S.GoUpBtn href="#top-section"><S.GoUpIcon className="fa fa-arrow-up"></S.GoUpIcon></S.GoUpBtn>
             <S.Main>
-                <S.HeaderSection>
+                <S.HeaderSection id="top-section">
                     <S.HeaderItem>
                         <S.Logo src={logo}></S.Logo>
                     </S.HeaderItem>
