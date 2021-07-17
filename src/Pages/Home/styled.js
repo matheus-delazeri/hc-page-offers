@@ -243,3 +243,38 @@ export const NewPrice = styled.h1`
     font-family: sans-serif;
     font-weight: 600;
 `;
+export const ContactSection = styled.div`
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 15%;
+
+`;
+export const ContactItem = styled.div`
+    max-width: 33%;
+    padding: 0 1%;
+`;
+export const ContactIcon = styled.i`
+    font-size: 20px;
+    color: #000;
+
+    &:hover{
+        -webkit-transform: scale(1.1);
+    }
+`;
+export const Footer = styled.div`
+    border-top: 1px solid #c3c3c3;
+    padding: 2% 0;
+    max-width: 100%;
+`;
+export const FooterText = styled.p`
+    line-height: 10px;
+    text-align: center;
+    font-size: 12px;
+`;
+export const FooterLink = styled.a`
+    text-decoration: none;
+    color: #333;
+    font-weight: 900;
+`;
+    
