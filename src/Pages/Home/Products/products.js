@@ -1,6 +1,6 @@
 const products = [
         {
-            "name": "Mouse Gamer Redragon Cobra",
+            "name": "Mouse Gamer Redragon Cobra M711",
             "price": 199.99,
             "promo-price": 149.99,
             "stock": "9",
@@ -21,7 +21,7 @@ const products = [
             "img": "nintendo.jpg"
         },
         {
-            "name": "Teclado Gamer Corsair K55",
+            "name": "Teclado Gamer Corsair K55, ABNT2",
             "price": 299.99,
             "promo-price": 199.99,
             "stock": "3",

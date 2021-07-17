@@ -1,24 +1,17 @@
 import styled from 'styled-components';
 
-export const Header = styled.div`
-    width: 100%;
-    background-color: #fff;
+export const Main = styled.div`
+    height: 100vh;
+`;
+export const HeaderSection = styled.div `
+    display: flex;
+	max-width: 100%;
+    padding: .7% 5%;
     border-bottom: 1px solid #c3c3c3;
-    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 7%); 
-    top: 0;
-    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 7%)
 `;
-export const HeaderContent = styled.div`
-    width: 100%;
-    display: table;
-    padding: 1% 0;
-`;
-export const Row = styled.div`
-    display: table-row;
-`;
-export const Cell = styled.div`
-    display: table-cell;
-    max-width: 25%
+export const HeaderItem = styled.div`
+    width: 33%;
 `;
 export const Logo = styled.img`
     max-width: 100%;
@@ -34,9 +27,9 @@ export const Logo = styled.img`
 `;
 export const Menus = styled.div`
     position: relative;
-    bottom: 1.5rem;
     text-align: end;
-    padding-right: 10%;
+    top: 1.5rem;
+    padding-left: 20%;
 
     @media (max-width: 990px) {
         display: none;    
@@ -46,25 +39,47 @@ export const MenuItem = styled.a`
     text-decoration: none;
     font-family: sans-serif;
     color: #000;
-    padding: 2% 2%;
+    padding: 2% 3%;
 
     &:hover {
         color: #63dc3e;
     }
 `;
+export const Title = styled.span`
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #000;
+`;
+export const ColoredTitle = styled.h1`
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #63DC3E;
+`;
+export const NewsSection = styled.div`
+    max-width: 100%;
+    margin: 0 15%;
+    background-color: #63DC3E;
+`;
+export const NewsTitle = styled.h1`
+    font-size: 26px;
+    color: 
+`;
 export const Content = styled.div`
     max-width: 100%;
     margin: 0 15%;
-
 `;
-export const Title = styled.h1`
+export const Subtitle = styled.h1`
     font-size: 26px;
     font-family: sans-serif;
     font-weight: 100;
     text-align: center;
     color: #000;
 `;
-export const ColoredTitle = styled.span`
+export const ColoredSubtitle = styled.span`
     font-size: 26px;
     font-family: sans-serif;
     font-weight: bold;
@@ -96,6 +111,14 @@ export const ProductContent = styled.div`
     padding: 8%;
     line-height: 15px;
 `;
+export const PromoTag = styled.div`
+    max-width: 70px;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: #63DC3E;
+    color: #fff;
+    margin-bottom: 2%;
+`;
 export const ProductImg = styled.img`
     max-width: 60%;
     display:block;
@@ -123,17 +146,4 @@ export const NewPrice = styled.h1`
     color: #63DC3E;
     font-family: sans-serif;
     font-weight: 600;
-`;
-export const BuyButton = styled.button`
-   width: 100%;
-   height: 36px; 
-   display: block;
-   margin: 0 auto;
-   cursor: pointer;
-   background-color: #63DC3E;
-   border: 0;
-   border-radius: 10px;
-   color: #fff;
-   font-family: sans-serif;
-   font-weight: 600;
 `;
