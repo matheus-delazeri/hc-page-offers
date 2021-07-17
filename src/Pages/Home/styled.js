@@ -13,6 +13,10 @@ export const GoUpBtn = styled.a`
    position: fixed;
    bottom: 5%;
    right: 3%; 
+
+   @media (max-width: 990px){
+       display: none;
+   }
 `;
 export const GoUpIcon = styled.i`
     font-size: 1.7rem;
