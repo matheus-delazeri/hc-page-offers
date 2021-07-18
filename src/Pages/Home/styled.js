@@ -78,6 +78,9 @@ export const Title = styled.span`
     font-weight: 100;
     text-align: center;
     color: #000;
+    @media (max-width: 990px) {
+        font-size: 35px;
+    }
 `;
 export const ColoredTitle = styled.h1`
     font-size: 40px;
@@ -88,6 +91,7 @@ export const ColoredTitle = styled.h1`
     @media (max-width: 990px) {
         padding-top: 5%;
         line-height: 20%;
+        font-size: 35px;
     }
 `;
 export const NewsSection = styled.div`
@@ -95,6 +99,7 @@ export const NewsSection = styled.div`
     max-width: 100%;
     margin: 12vh 20%;
     align-content: center;
+    align-items: center;
     @media (max-width: 990px) {
         flex-direction: column;
         margin: 2% 10%;
@@ -114,13 +119,13 @@ export const NewsImg = styled.img`
 export const ImgCredits = styled.a`
     text-decoration: none;
     color: #333;
-    font-size: 12px;
+    font-size: 10px;
 `;
 export const NewsForm = styled.div`
     width: 80%;
     margin-left: 20%;
     border-radius: 10px;
-    padding: 1% 3%;
+    padding: 2% 4%;
     box-shadow: 0 0 40px rgb(99 220 62 / 80%);
     @media (max-width: 990px) {
         display: block;
@@ -139,24 +144,25 @@ export const ColoredNews = styled.span`
     color: #63DC3E;
 `;
 export const InputText = styled.span`
-    font-size: 14px;
-    padding-left: 4%;
+    font-size: .85rem;
+    padding-left: 1.5%;
     color: #000;
-    @media (max-width: 990px) {
-        font-size: 12px;
-    }
 `;
 export const NewsInput = styled.input`
     width: 75%;
     border: 1px solid #ddd;
-    height: 1.5rem;
-    padding: 0 3px;
+    height: 2.5rem;
+    padding: 0 2%;
     margin-left: 1.5%;
     border-radius: .25rem;
     &:focus,
     &:active {
         outline: none;
         box-shadow: none;
+    }
+    @media (max-width: 990px) {
+        height: 1.5rem;
+        width: 70%;
     }
 `;
 export const SignBtn = styled.button`
@@ -176,7 +182,6 @@ export const SignBtn = styled.button`
         -webkit-transform: scale(1.03);
         cursor: pointer;
     }
-
 `;
 export const Content = styled.div`
     max-width: 100%;
@@ -188,6 +193,9 @@ export const Subtitle = styled.h1`
     font-weight: 100;
     text-align: center;
     color: #000;
+    @media (max-width: 990px) {
+        font-size: 21px;
+    }
 `;
 export const ColoredSubtitle = styled.span`
     font-size: 26px;
@@ -195,7 +203,9 @@ export const ColoredSubtitle = styled.span`
     font-weight: bold;
     text-align: center;
     color: #63DC3E;
-
+    @media (max-width: 990px) {
+        font-size: 21px;
+    }
 `;
 export const ProductsSection = styled.div `
     display: flex;
@@ -282,7 +292,7 @@ export const Footer = styled.div`
     max-width: 100%;
 `;
 export const FooterText = styled.p`
-    line-height: 10px;
+    line-height: 15px;
     text-align: center;
     font-size: 12px;
 `;
