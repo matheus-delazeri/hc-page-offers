@@ -31,8 +31,8 @@ const products = [
         },
         {
             "name": "Headset Gamer HyperX Cloud Stinger",
-            "price": 479,
-            "promo-price": 229,
+            "price": 479.99,
+            "promo-price": 229.99,
             "img": "headset.jpg"
         },
         {

@@ -134,9 +134,9 @@ export default function Home() {
                                 <S.ProductImg src={ productImg }></S.ProductImg>
                                 <br />
                                 <S.ProductName>{ product.name }</S.ProductName>
-                                <S.ProductInfo>De: R$ { product.price }</S.ProductInfo>
+                                <S.OldPrice>De: R$ { product.price }</S.OldPrice>
                                 <S.NewPrice>Por: R$ { product['promo-price'] }</S.NewPrice>
-                                <S.ProductInfo>Em até <b>{ fees }x</b> de R$ { calcFees(product.price) } sem juros</S.ProductInfo>
+                                <S.ProductFees>Em até <b>{ fees }x</b> de R$ { calcFees(product.price) } sem juros</S.ProductFees>
                             </S.ProductContent>
                         </S.Product>
                     )

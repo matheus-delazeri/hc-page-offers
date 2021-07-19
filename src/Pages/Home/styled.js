@@ -16,7 +16,9 @@ export const GoUpBtn = styled.a`
    right: 3%; 
 
    @media (max-width: 990px){
-       display: none;
+       bottom: 3%;
+       right: 5%;
+
    }
 `;
 export const GoUpIcon = styled.i`
@@ -255,7 +257,8 @@ export const ProductName = styled.h1`
     padding-bottom: 5%;
     border-bottom: 1px solid #858585;
 `;
-export const ProductInfo = styled.h1`
+export const OldPrice = styled.h1`
+text-decoration: line-through;
     font-size: 14px;
     color: #858585;
     font-family: sans-serif;
@@ -268,12 +271,18 @@ export const NewPrice = styled.h1`
     font-family: sans-serif;
     font-weight: 600;
 `;
+export const ProductFees = styled.h1`
+    font-size: 14px;
+    color: #858585;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: left;
+`;
 export const ContactSection = styled.div`
     display: flex;
     max-width: 100%;
     justify-content: center;
     margin: 0 15%;
-
 `;
 export const ContactItem = styled.div`
     max-width: 33%;
