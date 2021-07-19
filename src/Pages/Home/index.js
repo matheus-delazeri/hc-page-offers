@@ -150,7 +150,7 @@ export default function Home() {
                     © Copyright 2021 Matheus Delazeri. Todos direitos reservados.
                 </S.FooterText>
                 <S.FooterText>
-                    Site por <S.FooterLink href="">matheus delazeri</S.FooterLink>
+                    Site por <S.FooterLink href="https://www.linkedin.com/in/matheus-delazeri-296702139/" target="_blank">matheus delazeri</S.FooterLink>
                 </S.FooterText>
                 <S.ContactSection>
                     <S.ContactItem>

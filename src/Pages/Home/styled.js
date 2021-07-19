@@ -7,6 +7,7 @@ export const Main = styled.div`
     background-color: #fff;
     @media (max-width: 990px) {
         height: 100%;
+        padding: 0 2%;
     }
 `;
 export const GoUpBtn = styled.a`
@@ -79,7 +80,7 @@ export const Title = styled.span`
     text-align: center;
     color: #000;
     @media (max-width: 990px) {
-        font-size: 35px;
+        font-size: 36px;
     }
 `;
 export const ColoredTitle = styled.h1`
@@ -91,7 +92,7 @@ export const ColoredTitle = styled.h1`
     @media (max-width: 990px) {
         padding-top: 5%;
         line-height: 20%;
-        font-size: 35px;
+        font-size: 36px;
     }
 `;
 export const NewsSection = styled.div`
@@ -194,7 +195,7 @@ export const Subtitle = styled.h1`
     text-align: center;
     color: #000;
     @media (max-width: 990px) {
-        font-size: 21px;
+        font-size: 23px;
     }
 `;
 export const ColoredSubtitle = styled.span`
@@ -204,7 +205,7 @@ export const ColoredSubtitle = styled.span`
     text-align: center;
     color: #63DC3E;
     @media (max-width: 990px) {
-        font-size: 21px;
+        font-size: 23px;
     }
 `;
 export const ProductsSection = styled.div `
